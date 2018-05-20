@@ -14,6 +14,8 @@ if __name__ == "__main__":
                         action="store",
                         required=False,
                         default="insertion sort",
+                        choices=["bubble sort", "selection sort", "insertion sort",
+                        "shell sort", "heap sort", "merge sort", "quick sort"],
                         help="Choose a sorting algorithm.")
     parser.add_argument("--items",
                         action="store",
@@ -30,6 +32,7 @@ if __name__ == "__main__":
                         help="If using Shell sort, specify the sequence to use.")
 
     args = parser.parse_args()
+    print("Algorithm used: {}".format(args.algorithm))
     print()
     print("Unsorted list: {}".format(args.items))
     print()
