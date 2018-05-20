@@ -1,1 +1,1 @@
-![alt tag](https://github.com/cssubedi/Algorithms/sorting/analysis/figures/blob/master/radix_sort-00.png)
+![alt tag](https://github.com/cssubedi/Algorithms/blob/master/sorting/analysis/figures/radix_sort-00.png)
