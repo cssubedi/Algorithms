@@ -1,25 +1,18 @@
 import matplotlib.pyplot as plt
 
-bubble_sort_data = "/home/chandan/Dropbox/PrepareForPhd/Programming/" \
-               "Python/Algorithms/include/Sorting/Analysis/bubble_sort.txt"
+bubble_sort_data = "~/Algorithms/sorting/analysis/data/bubble_sort.txt"
 
-selection_sort_data = "/home/chandan/Dropbox/PrepareForPhd/Programming/" \
-               "Python/Algorithms/include/Sorting/Analysis/selection_sort.txt"
+selection_sort_data = "~/Algorithms/sorting/analysis/data/selection_sort.txt"
 
-insertion_sort_data = "/home/chandan/Dropbox/PrepareForPhd/Programming/" \
-               "Python/Algorithms/include/Sorting/Analysis/insertion_sort.txt"
+insertion_sort_data = "~/Algorithms/sorting/analysis/data/insertion_sort.txt"
 
-shell_sort_data = "/home/chandan/Dropbox/PrepareForPhd/Programming/" \
-               "Python/Algorithms/include/Sorting/Analysis/shell_sort.txt"
+shell_sort_data = "~/Algorithms/sorting/analysis/data/shell_sort.txt"
 
-heap_sort_data = "/home/chandan/Dropbox/PrepareForPhd/Programming/" \
-               "Python/Algorithms/include/Sorting/Analysis/heap_sort.txt"
+heap_sort_data = "~/Algorithms/sorting/analysis/data/heap_sort.txt"
 
-merge_sort_data = "/home/chandan/Dropbox/PrepareForPhd/Programming/" \
-               "Python/Algorithms/include/Sorting/Analysis/merge_sort.txt"
+merge_sort_data = "~/Algorithms/sorting/analysis/data/merge_sort.txt"
 
-quick_sort_data = "/home/chandan/Dropbox/PrepareForPhd/Programming/" \
-               "Python/Algorithms/include/Sorting/Analysis/quick_sort.txt"
+quick_sort_data = "~/Algorithms/sorting/analysis/data/quick_sort.txt"
 
 number_elements = [i for i in range(0, 10001, 5)]
 
@@ -82,4 +75,3 @@ plt.legend(loc="upper left")
 plt.grid(True)
 
 plt.show()
-
